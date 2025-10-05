@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 768">
+  <defs>
+    <radialGradient id="robeGlow" cx="0.5" cy="0.2" r="0.8">
+      <stop offset="0%" stop-color="#f6e7ff" />
+      <stop offset="50%" stop-color="#8f60ff" />
+      <stop offset="100%" stop-color="#2c0f60" />
+    </radialGradient>
+    <radialGradient id="orbLight" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#fff7d6" />
+      <stop offset="50%" stop-color="#ffd05c" />
+      <stop offset="100%" stop-color="#ff5c8d" />
+    </radialGradient>
+    <linearGradient id="capeGradient" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#c7a6ff" />
+      <stop offset="60%" stop-color="#6732d6" />
+      <stop offset="100%" stop-color="#1f0c44" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="768" fill="none" />
+  <g stroke="#110524" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M214 132l-86 112c-26 40-34 86 14 128 48 42 88 60 114 60s66-18 114-60c48-42 40-88 14-128l-86-112" fill="url(#capeGradient)" />
+    <path d="M256 122c-42 0-70 32-70 88 0 48 28 102 70 102s70-54 70-102c0-56-28-88-70-88z" fill="url(#robeGlow)" />
+    <path d="M194 208c20-28 38-40 62-40s42 12 62 40" fill="none" />
+    <path d="M188 288c24 20 46 30 68 30s44-10 68-30" fill="none" />
+    <path d="M206 344c-26 32-44 74-44 134 0 70 24 118 54 142 18 14 40 14 60 0 30-24 54-72 54-142 0-60-18-102-44-134" fill="#2d124f" />
+    <path d="M184 342c-20-4-52-28-86-72" fill="none" />
+    <path d="M328 342c20-4 52-28 86-72" fill="none" />
+    <path d="M194 216c-24-24-52-74-72-150l-60 48c-20 98 12 164 92 200" fill="#1a0838" />
+    <path d="M318 216c24-24 52-74 72-150l60 48c20 98-12 164-92 200" fill="#1a0838" />
+    <path d="M190 472c-16 48-18 82-6 122" fill="none" />
+    <path d="M322 472c16 48 18 82 6 122" fill="none" />
+    <path d="M212 504c20 34 32 48 44 48s24-14 44-48" fill="none" />
+  </g>
+  <g stroke="#f8edff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M160 230c42 12 76 16 96 16s54-4 96-16" />
+    <path d="M162 308c28 18 58 26 94 26s66-8 94-26" />
+    <path d="M176 390c26 22 50 32 80 32s54-10 80-32" />
+    <path d="M188 456c18 24 38 36 68 36s50-12 68-36" />
+  </g>
+  <g stroke="#ffd971" stroke-width="2" stroke-linecap="round">
+    <path d="M214 182c14-8 26-10 42-10s28 2 42 10" />
+    <path d="M200 246c22-6 42-8 56-8s34 2 56 8" />
+    <path d="M190 314c24 10 46 14 66 14s42-4 66-14" />
+    <path d="M180 382c22 16 44 24 76 24s54-8 76-24" />
+    <path d="M172 446c18 18 38 28 68 28s50-10 68-28" />
+  </g>
+  <g stroke="#ffb7d6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.9">
+    <path d="M128 188c16 6 32 6 52-2" />
+    <path d="M384 188c-16 6-32 6-52-2" />
+    <path d="M142 256c18 10 34 12 54 4" />
+    <path d="M370 256c-18 10-34 12-54 4" />
+  </g>
+  <g stroke="#fff6d8" stroke-width="2" stroke-linecap="round" stroke-dasharray="8 8">
+    <path d="M256 84l-10 48" />
+    <path d="M256 84l10 48" />
+    <path d="M188 96l32 46" />
+    <path d="M324 96l-32 46" />
+  </g>
+  <g fill="url(#orbLight)" stroke="#110524" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="256" cy="236" r="42" />
+    <path d="M256 194l-10 26 10 10 10-10z" />
+    <path d="M256 278l-10-26 10-10 10 10z" />
+  </g>
+  <g stroke="#ffd05c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.8">
+    <path d="M136 422l-60-20" />
+    <path d="M130 460l-60 8" />
+    <path d="M376 422l60-20" />
+    <path d="M382 460l60 8" />
+  </g>
+  <g stroke="#dcd0ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.6">
+    <path d="M94 338l68 14" />
+    <path d="M418 338l-68 14" />
+    <path d="M108 380l74 12" />
+    <path d="M404 380l-74 12" />
+  </g>
+</svg>

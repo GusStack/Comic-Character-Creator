@@ -24,6 +24,18 @@
       <section class="controls">
         <h2>Character Profile</h2>
         <form id="character-form">
+          <label class="field preset-field">
+            <span>Visual Preset</span>
+            <select id="preset-select" name="preset">
+              <option value="custom">Custom Mix</option>
+              <option value="cosmic-guardian">Cosmic Guardian</option>
+              <option value="neon-rogue">Neon Rogue</option>
+              <option value="mythic-sorcerer">Mythic Sorcerer</option>
+              <option value="shadow-operative">Shadow Operative</option>
+              <option value="atomic-sentinel">Atomic Sentinel</option>
+            </select>
+          </label>
+
           <div class="form-grid">
             <label class="field">
               <span>Hero Name</span>
@@ -137,6 +149,7 @@
         <article class="character-sheet" id="character-sheet">
           <h3 id="sheet-name">Your character awaits...</h3>
           <p id="sheet-summary">Choose traits and craft a backstory to bring them to life.</p>
+          <p id="sheet-theme" class="sheet-theme"></p>
           <p id="sheet-power"></p>
           <div id="sheet-traits" class="traits-list"></div>
           <p id="sheet-backstory"></p>

@@ -83,6 +83,10 @@ body {
   font-size: 0.95rem;
 }
 
+.preset-field {
+  margin-bottom: 1.2rem;
+}
+
 .field span,
 .field-label {
   font-weight: 600;
@@ -199,6 +203,14 @@ textarea {
   font-size: 1.4rem;
   color: #fdea55;
   letter-spacing: 1px;
+}
+
+.sheet-theme {
+  margin: 0;
+  font-size: 0.95rem;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: rgba(255, 236, 141, 0.82);
 }
 
 .character-sheet p {

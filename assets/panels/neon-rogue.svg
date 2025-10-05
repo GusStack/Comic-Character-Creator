@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 768">
+  <defs>
+    <linearGradient id="suitNeon" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0b1b3d" />
+      <stop offset="40%" stop-color="#162b73" />
+      <stop offset="100%" stop-color="#0f0c29" />
+    </linearGradient>
+    <linearGradient id="speedLines" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#0ff0ff" stop-opacity="0" />
+      <stop offset="40%" stop-color="#00d5ff" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#ff2ca8" stop-opacity="0.9" />
+    </linearGradient>
+    <radialGradient id="visorGlow" cx="0.5" cy="0.5" r="0.7">
+      <stop offset="0%" stop-color="#00f6ff" />
+      <stop offset="60%" stop-color="#00b7ff" />
+      <stop offset="100%" stop-color="#04174a" />
+    </radialGradient>
+  </defs>
+  <rect width="512" height="768" fill="none" />
+  <g stroke="#050211" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M192 132l-80 126c-18 32-24 70 10 102 34 34 82 48 124 48s90-14 124-48c34-32 28-70 10-102l-80-126" fill="url(#suitNeon)" />
+    <path d="M256 118c-44 0-72 30-72 72s28 86 72 86 72-44 72-86-28-72-72-72z" fill="#0c1330" />
+    <path d="M198 180c20-14 40-20 58-20s38 6 58 20" fill="none" />
+    <path d="M190 264c28 20 46 28 66 28s38-8 66-28" fill="none" />
+    <path d="M214 318l-40 168c18 44 46 76 82 94s66 18 92 0l-40-262" fill="#121438" />
+    <path d="M298 318l40 168c-18 44-46 76-82 94s-66 18-92 0l40-262" fill="none" />
+    <path d="M178 442l-52 74c-12 22-8 50 38 78 44 26 84 36 120 36s76-10 120-36c46-28 50-56 38-78l-52-74" fill="none" />
+    <path d="M178 206c-26-16-54-54-74-114l-60 50c-14 84 18 140 92 170" fill="#0c0f22" />
+    <path d="M334 206c26-16 54-54 74-114l60 50c14 84-18 140-92 170" fill="#0c0f22" />
+    <path d="M156 308c-20-2-50-20-84-56" fill="none" />
+    <path d="M356 308c20-2 50-20 84-56" fill="none" />
+    <path d="M210 500c-14 40-18 70-8 110" fill="none" />
+    <path d="M302 500c14 40 18 70 8 110" fill="none" />
+  </g>
+  <g stroke="#08f8ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M118 254c48 10 92 10 138 0" />
+    <path d="M256 380c36 0 64-8 88-24" />
+    <path d="M200 378c16 18 30 30 56 30" />
+    <path d="M164 472c28 26 58 38 92 38" />
+    <path d="M324 472c-28 26-58 38-92 38" />
+  </g>
+  <g stroke="#ff2fa6" stroke-width="2" stroke-linecap="round">
+    <path d="M152 168c32-6 56-6 80 0" />
+    <path d="M216 224c24-4 40-4 64 0" />
+    <path d="M202 288c20 4 36 4 54 0" />
+    <path d="M184 350c24 10 46 14 72 14" />
+    <path d="M168 414c18 16 40 24 68 24" />
+    <path d="M350 414c-18 16-40 24-68 24" />
+  </g>
+  <path d="M208 196c18-16 36-24 48-24s30 8 48 24c18 18 30 40 30 56s-10 34-30 34-40-12-48-12-28 12-48 12-30-18-30-34 12-38 30-56z" fill="url(#visorGlow)" stroke="#050211" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+  <g stroke="#00f0ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.9">
+    <path d="M54 154l108 22" />
+    <path d="M18 214l160 28" />
+    <path d="M32 276l176 22" />
+    <path d="M30 340l166 20" />
+  </g>
+  <g stroke="#ff2ca8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.9">
+    <path d="M458 154l-108 22" />
+    <path d="M494 214l-160 28" />
+    <path d="M480 276l-176 22" />
+    <path d="M482 340l-166 20" />
+  </g>
+  <rect x="90" y="548" width="332" height="124" fill="url(#speedLines)" opacity="0.32" stroke="#050211" stroke-width="2" stroke-linejoin="round" />
+</svg>
