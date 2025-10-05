@@ -55,7 +55,17 @@ function updateSheet(hero) {
 }
 
 function drawHero(hero) {
-  const { primaryColor, secondaryColor, accentColor, alignment, origin, height } = hero;
+  const {
+    primaryColor,
+    secondaryColor,
+    accentColor,
+    alignment,
+    origin,
+    height,
+    specialty,
+    power,
+    name,
+  } = hero;
   const { width, height: canvasHeight } = canvas;
 
   ctx.clearRect(0, 0, width, canvasHeight);
