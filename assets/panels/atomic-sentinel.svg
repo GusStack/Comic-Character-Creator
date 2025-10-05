@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 768">
+  <defs>
+    <linearGradient id="plating" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ff9a42" />
+      <stop offset="50%" stop-color="#f25c05" />
+      <stop offset="100%" stop-color="#6c2100" />
+    </linearGradient>
+    <linearGradient id="reactorCore" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ffe877" />
+      <stop offset="60%" stop-color="#ffc800" />
+      <stop offset="100%" stop-color="#ff5a00" />
+    </linearGradient>
+    <radialGradient id="visorFire" cx="0.5" cy="0.5" r="0.6">
+      <stop offset="0%" stop-color="#fff6a8" />
+      <stop offset="50%" stop-color="#ffd85a" />
+      <stop offset="100%" stop-color="#ff7c00" />
+    </radialGradient>
+  </defs>
+  <rect width="512" height="768" fill="none" />
+  <g stroke="#260900" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M168 130l-72 146c-24 56-20 98 26 142 46 44 102 66 134 66s88-22 134-66c46-44 50-86 26-142l-72-146" fill="url(#plating)" />
+    <path d="M256 124c-48 0-84 32-84 98 0 52 22 108 84 108s84-56 84-108c0-66-36-98-84-98z" fill="#311104" />
+    <path d="M188 212c24-28 42-40 68-40s44 12 68 40" fill="none" />
+    <path d="M176 304c30 24 52 36 80 36s50-12 80-36" fill="none" />
+    <path d="M206 358c-34 40-58 100-58 178 0 56 20 104 48 138 16 20 36 20 52 0 28-34 48-82 48-138 0-78-24-138-58-178" fill="#2e1204" />
+    <path d="M190 354c-26-6-66-34-112-86" fill="none" />
+    <path d="M322 354c26-6 66-34 112-86" fill="none" />
+    <path d="M198 234c-28-28-68-90-96-180l-70 54c-18 122 28 198 132 240" fill="#311104" />
+    <path d="M314 234c28-28 68-90 96-180l70 54c18 122-28 198-132 240" fill="#311104" />
+    <path d="M198 506c-18 56-20 94-8 138" fill="none" />
+    <path d="M314 506c18 56 20 94 8 138" fill="none" />
+    <path d="M214 546c20 40 34 60 42 60s22-20 42-60" fill="none" />
+  </g>
+  <g stroke="#ffec8c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M158 270c36 8 66 8 98 0" />
+    <path d="M256 270c32 8 62 8 98 0" />
+    <path d="M170 334c28 12 52 18 82 18" />
+    <path d="M342 334c-30 12-54 18-82 18" />
+    <path d="M188 392c22 18 40 24 68 24" />
+    <path d="M324 392c-22 18-40 24-68 24" />
+    <path d="M204 448c18 20 32 28 52 28" />
+    <path d="M308 448c-18 20-32 28-52 28" />
+  </g>
+  <g stroke="#ffb347" stroke-width="2" stroke-linecap="round">
+    <path d="M210 178c18-12 32-16 46-16s28 4 46 16" />
+    <path d="M200 230c24-8 42-10 56-10s32 2 56 10" />
+    <path d="M188 288c28 12 50 16 68 16s40-4 68-16" />
+    <path d="M180 346c24 14 44 20 76 20s52-6 76-20" />
+    <path d="M172 402c18 14 38 22 64 22s46-8 64-22" />
+  </g>
+  <path d="M208 198c18-18 36-26 48-26s30 8 48 26c18 18 28 38 28 54s-10 30-28 30-38-10-48-10-30 10-48 10-28-14-28-30 10-36 28-54z" fill="#140600" stroke="#260900" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+  <g fill="url(#visorFire)" stroke="#260900" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M212 214c0 18 12 26 44 26s44-8 44-26-12-26-44-26-44 8-44 26z" />
+    <path d="M224 214c0 8 6 12 20 12s20-4 20-12-6-12-20-12-20 4-20 12z" fill="#ffe89a" />
+    <path d="M288 214c0 8 6 12 20 12s20-4 20-12-6-12-20-12-20 4-20 12z" fill="#ffe89a" />
+  </g>
+  <g fill="url(#reactorCore)" stroke="#260900" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="256" cy="306" r="48" />
+    <path d="M256 258l-16 46 16 12 16-12z" />
+    <path d="M256 354l-16-46 16-12 16 12z" />
+  </g>
+  <g stroke="#ffcf66" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.8">
+    <path d="M120 330l-58-18" />
+    <path d="M112 374l-58 6" />
+    <path d="M392 330l58-18" />
+    <path d="M400 374l58 6" />
+    <path d="M150 420l-48 26" />
+    <path d="M362 420l48 26" />
+  </g>
+  <g stroke="#ff8a2f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.7">
+    <path d="M142 164l-56-48" />
+    <path d="M138 208l-64-26" />
+    <path d="M370 164l56-48" />
+    <path d="M374 208l64-26" />
+  </g>
+</svg>
