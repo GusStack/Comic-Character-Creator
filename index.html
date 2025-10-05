@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comic Character Creator</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="logo">
+        <span class="logo-highlight">Comic</span> Character Creator
+      </div>
+      <p class="tagline">Assemble your hero, villain, or something in between.</p>
+    </header>
+
+    <main class="app">
+      <section class="controls">
+        <h2>Character Profile</h2>
+        <form id="character-form">
+          <div class="form-grid">
+            <label class="field">
+              <span>Hero Name</span>
+              <input type="text" name="name" placeholder="e.g. Nebula Knight" />
+            </label>
+
+            <label class="field">
+              <span>Gender Identity</span>
+              <select name="gender">
+                <option value="Unspecified">Unspecified</option>
+                <option value="Female">Female</option>
+                <option value="Male">Male</option>
+                <option value="Non-binary">Non-binary</option>
+                <option value="Genderfluid">Genderfluid</option>
+              </select>
+            </label>
+
+            <label class="field">
+              <span>Alignment</span>
+              <select name="alignment">
+                <option value="Hero">Hero</option>
+                <option value="Anti-hero">Anti-hero</option>
+                <option value="Vigilante">Vigilante</option>
+                <option value="Villain">Villain</option>
+              </select>
+            </label>
+
+            <label class="field">
+              <span>Origin</span>
+              <select name="origin">
+                <option value="Earth-born">Earth-born</option>
+                <option value="Mutant">Mutant</option>
+                <option value="Cosmic">Cosmic Wanderer</option>
+                <option value="Interdimensional">Interdimensional</option>
+                <option value="Technological">Technological Construct</option>
+              </select>
+            </label>
+
+            <label class="field">
+              <span>Specialty</span>
+              <select name="specialty">
+                <option value="Defender">Defender</option>
+                <option value="Mystic">Mystic</option>
+                <option value="Speedster">Speedster</option>
+                <option value="Powerhouse">Powerhouse</option>
+                <option value="Stealth">Stealth Operative</option>
+                <option value="Tactician">Tactician</option>
+              </select>
+            </label>
+
+            <label class="field">
+              <span>Stature</span>
+              <select name="height">
+                <option value="Short">Short</option>
+                <option value="Average">Average</option>
+                <option value="Tall">Tall</option>
+                <option value="Towering">Towering</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="field-group">
+            <span class="field-label">Personality Traits</span>
+            <label><input type="checkbox" name="traits" value="Compassionate" /> Compassionate</label>
+            <label><input type="checkbox" name="traits" value="Ruthless" /> Ruthless</label>
+            <label><input type="checkbox" name="traits" value="Strategic" /> Strategic</label>
+            <label><input type="checkbox" name="traits" value="Chaotic" /> Chaotic</label>
+            <label><input type="checkbox" name="traits" value="Stoic" /> Stoic</label>
+            <label><input type="checkbox" name="traits" value="Charismatic" /> Charismatic</label>
+          </div>
+
+          <h2>Costume Palette</h2>
+          <div class="palette-grid">
+            <label class="field color-field">
+              <span>Primary Color</span>
+              <input type="color" name="primaryColor" value="#2c4bff" />
+            </label>
+            <label class="field color-field">
+              <span>Secondary Color</span>
+              <input type="color" name="secondaryColor" value="#ff3d6a" />
+            </label>
+            <label class="field color-field">
+              <span>Accent Color</span>
+              <input type="color" name="accentColor" value="#fdd835" />
+            </label>
+          </div>
+
+          <label class="field">
+            <span>Signature Power Set</span>
+            <input type="text" name="power" placeholder="e.g. Star-forged Plasma Blades" />
+          </label>
+
+          <label class="field">
+            <span>Backstory</span>
+            <textarea
+              name="backstory"
+              rows="5"
+              placeholder="Compose the legend behind your character..."
+            ></textarea>
+          </label>
+
+          <button type="submit" class="generate-button">Generate Character</button>
+        </form>
+      </section>
+
+      <section class="preview">
+        <h2>Visualizer</h2>
+        <div class="canvas-wrapper">
+          <canvas id="hero-canvas" width="360" height="480" aria-label="Character preview"></canvas>
+        </div>
+        <article class="character-sheet" id="character-sheet">
+          <h3 id="sheet-name">Your character awaits...</h3>
+          <p id="sheet-summary">Choose traits and craft a backstory to bring them to life.</p>
+          <p id="sheet-power"></p>
+          <div id="sheet-traits" class="traits-list"></div>
+          <p id="sheet-backstory"></p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="app-footer">
+      <p>Forge legends. Share stories. Save the multiverse.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
